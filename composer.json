@@ -7,7 +7,9 @@
             "email": "to0919606682@gmail.com"
         }
     ], 
-    "require": {},
+    "require": {
+        "monolog/monolog": "^3.9"
+    },
     "autoload": {
             "psr-4": {
                 "Demo\\": "./src/Demo"
